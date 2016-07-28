@@ -1,10 +1,10 @@
 {
-  "name": "crm-frontend",
+  "name": "redux-router-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/browserify src/index.js -o dist/assets/js/bundle.js -t [ babelify --presets [ react es2015 ] ]"
+    "build:js": "node_modules/.bin/browserify src/index.js -o dist/assets/js/bundle.js -t [ babelify --presets [ react es2015 ] ]"
   },
   "author": "",
   "license": "",
